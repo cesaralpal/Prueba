@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="db_name">pruebadb</string>
+
+</resources>
