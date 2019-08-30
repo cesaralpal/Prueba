@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#3AAA35</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorAccent">#222222</color>
+    <color name="colorNavigationDrawer">#222222</color>
+    <color name="colorTitleNavigationDrawer">#888888</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDivider">#333333</color>
+    <color name="colorTabIndicator">#288024</color>
+    <color name="colorLines">#CDCDCD</color>
+    <color name="color_status_bar">#138C0D</color>
+    <color name="color_status_yellow">#3AAA35</color>
+    <color name="color_blue">#444444</color>
+    <color name="color_gray_light">#EDEDED</color>
+    <color name="color_gray_dark">#DADADA</color>
+    <color name="color_gray_menu">#BDBDBD</color>
+    <color name="color_gray_menu_connection">#C4C4C4</color>
+    <color name="activityBackground">#FFFFFF</color>
+
 </resources>

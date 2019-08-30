@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+    <item android:id="@+id/devices"
+          android:title="Ver dispositivos"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/acttion_configure"
+          android:title="Configuración WiFi"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/konow_vikkon"
+          android:title="Conozca vikkon LINK"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_help"
+          android:title="Ayuda"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/acttion_support"
+          android:title="Soporte técnico"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+</menu>

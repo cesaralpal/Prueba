@@ -1,5 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.onechance.workApp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="com.villas.advertisingApp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,18 +11,20 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-                 android:name="com.onechance.workApp.config.PruebaAplication"
+                 android:name="com.villas.advertisingApp.config.AdvertisingAplication"
                  android:allowBackup="true"
                  android:label="@string/app_name"
                  android:icon="@mipmap/ic_launcher"
                  android:roundIcon="@mipmap/ic_launcher_round"
                  android:supportsRtl="true"
-                 android:theme="@style/AppTheme">
+                 android:usesCleartextTraffic="true"
+                 tools:ignore="GoogleAppIndexingWarning"
+                 android:theme="@style/AppTheme.NoActionBar">
 
 
 
     <activity
-            android:name="com.onechance.workApp.splash.view.SplashActivity">
+            android:name="com.villas.advertisingApp.splash.view.SplashActivity">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
@@ -30,9 +32,20 @@
     </activity>
 
         <activity
-                android:name=".home.view.Home"
+                android:name="com.villas.advertisingApp.home.view.Home"
                 android:screenOrientation="portrait" />
 
-    </application>
 
+        <activity android:name=".bluetoothConnection.DeviceActivity"
+                  android:screenOrientation="portrait"
+        />
+
+        <activity android:name=".bluetoothConnection.ConnectionExampleActivity"
+                  android:screenOrientation="portrait"
+        />
+
+        <activity android:name=".bluetoothConnection.BluetoothActivity"
+                  android:screenOrientation="portrait"
+        />
+    </application>
 </manifest>
